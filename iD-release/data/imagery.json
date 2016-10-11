@@ -34835,7 +34835,7 @@
         "name": "OpenStreetMap (Standard)",
         "type": "tms",
         "description": "The default OpenStreetMap layer.",
-        "template": "http://{switch:a,b,c}.tile.openstreetmap.org/{zoom}/{x}/{y}.png",
+        "template": "https://{switch:a,b,c}.tile.openstreetmap.org/{zoom}/{x}/{y}.png",
         "scaleExtent": [
             0,
             19
