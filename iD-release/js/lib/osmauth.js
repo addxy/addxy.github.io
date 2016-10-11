@@ -221,7 +221,7 @@ module.exports = function(o) {
 
         o = _;
 
-        o.url = o.url || 'http://www.openstreetmap.org';
+        o.url = 'https://www.openstreetmap.org';
         o.landing = o.landing || 'land.html';
 
         o.singlepage = o.singlepage || false;

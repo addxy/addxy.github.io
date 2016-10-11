@@ -1,10 +1,10 @@
-﻿var path = location.href.slice(0, -14);
+﻿var path = 'https://statscan.osmcanada.ca/';
 
 var config = {
 	tabTitle 	: { en: "iD Editor", fr: "Éditeur iD" },
 	cntTitle 	: { en: "", fr: "" },
 	localeLink	: { en: path + "index-fra.html" , fr:path + "index-eng.html" },
-	appLink		: { 
+	appLink		: {
 					en: path + "iD-release/index.html?locale=en-US&#background=MAPNIK&map=13.00/-75.7053/45.4269", 
 					fr: path + "iD-release/index.html?locale=fr-CA&#background=MAPNIK&map=13.00/-75.7053/45.4269" 
 				  }
@@ -26,6 +26,6 @@ function Initialize() {
 	iframe.frameBorder = 0;
 	iframe.scrolling = "no";
 	iframe.src = config.appLink[wb.lang];
-	
+
 	wbcontent.appendChild(iframe);
 }
