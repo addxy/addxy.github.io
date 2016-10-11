@@ -556,6 +556,11 @@ en:
       maxstay:
         # 'maxstay=*'
         label: Max Stay
+      mobilityAccess:
+        # 'mobilityAccess=*'
+        label: Reduced mobility access
+        # mobilityAccess field placeholder
+        placeholder: 'yes'
       mtb/scale:
         # 'mtb:scale=*'
         label: Mountain Biking Difficulty
@@ -757,6 +762,11 @@ en:
       power_supply:
         # 'power_supply=*'
         label: Power Supply
+      presence:
+        # 'presence=*'
+        label: Presence of Business
+        # presence field placeholder
+        placeholder: 'yes'
       railway:
         # 'railway=*'
         label: Type

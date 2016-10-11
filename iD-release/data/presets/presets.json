@@ -2514,11 +2514,8 @@
         "icon": "building",
         "fields": [
             "building",
-			"address",
-             "levels",
-			"presence",
-			"mobilityAccess"
-            
+            "levels",
+            "address"
         ],
         "geometry": [
             "point",
@@ -2535,9 +2532,7 @@
         "icon": "commercial",
         "fields": [
             "address",
-            "levels",
-			"presence",
-			"mobilityAccess"
+            "levels"
         ],
         "geometry": [
             "area"
@@ -2661,15 +2656,13 @@
         "fields": [
             "address",
             "levels",
-			"presence",
-			"mobilityAccess"
+            "smoking"
         ],
         "geometry": [
             "area"
         ],
         "tags": {
-			"Custom Attr 1": "Custom Value 1",
-			"Custom Attr 2": "Custom Value 2"
+            "building": "commercial"
         },
         "matchScore": 0.5,
         "name": "Commercial Building"
@@ -2678,9 +2671,7 @@
         "icon": "building",
         "fields": [
             "address",
-            "levels",
-			"presence",
-			"mobilityAccess"
+            "levels"
         ],
         "geometry": [
             "area"
@@ -2695,9 +2686,7 @@
         "icon": "building",
         "fields": [
             "address",
-            "levels",
-			"presence",
-			"mobilityAccess"
+            "levels"
         ],
         "geometry": [
             "area"
@@ -2820,9 +2809,7 @@
         "icon": "building",
         "fields": [
             "address",
-            "levels",
-			"presence",
-			"mobilityAccess"
+            "levels"
         ],
         "geometry": [
             "area"
@@ -2853,9 +2840,7 @@
         "icon": "industrial",
         "fields": [
             "address",
-            "levels",
-			"presence",
-			"mobilityAccess"
+            "levels"
         ],
         "geometry": [
             "area"
@@ -2905,9 +2890,7 @@
         "icon": "building",
         "fields": [
             "address",
-            "levels",
-			"presence",
-			"mobilityAccess"
+            "levels"
         ],
         "geometry": [
             "area"
@@ -2973,9 +2956,7 @@
         "icon": "building",
         "fields": [
             "address",
-            "levels",
-			"presence",
-			"mobilityAccess"
+            "levels"
         ],
         "geometry": [
             "area"

@@ -1,24 +1,4 @@
 {
-	"presence":{
-        "key": "presence",
-        "type": "combo",
-        "label": "Presence of Business",
-        "placeholder": "yes",
-        "options": [
-            "yes",
-            "no"
-        ]
-    },
-	"mobilityAccess":{
-        "key": "mobilityAccess",
-        "type": "combo",
-        "label": "Reduced mobility access",
-        "placeholder": "yes",
-        "options": [
-            "yes",
-            "no"
-        ]
-    },
     "access": {
         "keys": [
             "access",
@@ -790,6 +770,16 @@
         ],
         "snake_case": false
     },
+    "mobilityAccess": {
+        "key": "mobilityAccess",
+        "type": "combo",
+        "label": "Reduced mobility access",
+        "placeholder": "yes",
+        "options": [
+            "yes",
+            "no"
+        ]
+    },
     "mtb/scale": {
         "key": "mtb:scale",
         "type": "combo",
@@ -1009,6 +999,16 @@
         "key": "power_supply",
         "type": "check",
         "label": "Power Supply"
+    },
+    "presence": {
+        "key": "presence",
+        "type": "combo",
+        "label": "Presence of Business",
+        "placeholder": "yes",
+        "options": [
+            "yes",
+            "no"
+        ]
     },
     "railway": {
         "key": "railway",

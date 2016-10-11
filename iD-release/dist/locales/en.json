@@ -1117,6 +1117,10 @@
             "maxstay": {
                 "label": "Max Stay"
             },
+            "mobilityAccess": {
+                "label": "Reduced mobility access",
+                "placeholder": "yes"
+            },
             "mtb/scale": {
                 "label": "Mountain Biking Difficulty",
                 "placeholder": "0, 1, 2, 3...",
@@ -1268,10 +1272,8 @@
                 "label": "Power Supply"
             },
             "presence": {
-                "label": "Presence of Business"
-            },
-			"mobilityAccess": {
-                "label": "Reduced mobility access"
+                "label": "Presence of Business",
+                "placeholder": "yes"
             },
             "railway": {
                 "label": "Type"
