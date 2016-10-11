@@ -1,0 +1,23 @@
+{
+    "icon": "waste-basket",
+    "fields": [
+        "operator",
+        "address",
+        "recycling_accepts"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "can",
+        "bottle",
+        "garbage",
+        "scrap",
+        "trash"
+    ],
+    "tags": {
+        "amenity": "recycling"
+    },
+    "name": "Recycling"
+}

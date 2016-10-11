@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title></title>
+		
+		<script type="text/javascript">
+			var wb = { lang:"en" }
+		</script>
+		<script type="text/javascript" src="./wet-config.js"></script>
+		
+		<style>
+			body {
+				font-family : Helvetica,Arial,sans-serif;
+				margin : 0;
+			}
+
+			h1 {
+				border-bottom	: 1px solid #af3c43;
+				font-size		: 34px;
+				margin-bottom	: 10px;
+				margin-top		: 10px;
+				padding-bottom	: .1em;
+			} 
+			
+			.link {
+				float : right;
+			}
+			
+			.footer, .header {
+				margin : 10px 0 10px 0;
+			}
+
+			.footer {
+				position: absolute;
+				bottom: 0px;
+			}
+			
+			.content {
+				width	: 100%;
+				position: absolute;
+				top		: 95px;
+				bottom	: 45px;
+			}
+			
+			.content iframe {
+				width: 100% !important;
+				height: 100% !important;
+			}
+			
+			h1, .header, .footer {
+				margin : 8px 8px 8px 8px;
+			}
+		</style>
+
+	</head>
+	<body onload="Initialize()">
+		<a id="wb-locale"  class="link" href="">Français</a>
+		<div id="wb-cont"></div>
+		
+		<div>
+			<h1>Online Collaboration Platform</h1>
+			<div class="header">Important note: All data and information displayed on the map are open data provided and maintained by a third party provider; 
+								****CHANGE NAME**** declines any responsibility regarding the quality and use of this data.</div>
+		</div>
+		<div id="wb-content" class="content"></div>
+		<div class="footer">Do you want your contribution to be acknowledge in the "crowdsourcing wall of fame"? then email us and let us know your user ID: at crowdsourcing@canada.ca</div>
+	</body>
+</html>

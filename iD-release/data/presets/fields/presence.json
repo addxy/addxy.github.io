@@ -1,0 +1,10 @@
+{
+	"key" : "presence",
+	"type" : "combo",
+	"label" : "Presence of Business",
+	"placeholder" : "yes",
+	"options" : [
+		"yes",
+		"no"
+	]
+}
