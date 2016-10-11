@@ -1,4 +1,4 @@
-﻿var path = 'https://statscan.osmcanada.ca/';
+﻿var path = 'https://crowdid.osmcanada.ca/';
 
 var config = {
 	tabTitle 	: { en: "iD Editor", fr: "Éditeur iD" },
