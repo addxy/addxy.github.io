@@ -2,14 +2,23 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		
+
 		<title></title>
-		
+		<link rel="stylesheet" href="assets/bootstrap-3.3.6/css/bootstrap.css">
+
+		 <!-- mobile devices -->
+        <meta name='viewport' content='initial-scale=1.0 maximum-scale=1.0'>
+        <meta name='apple-mobile-web-app-capable' content='yes' />
+        <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+
+
 		<script type="text/javascript">
 			var wb = { lang:"fr" }
 		</script>
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+		<script src="assets/bootstrap-3.3.6/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="./wet-config.js"></script>
-		
+
 		<style>
 			body {
 				font-family : Helvetica,Arial,sans-serif;
@@ -22,12 +31,12 @@
 				margin-bottom	: 10px;
 				margin-top		: 10px;
 				padding-bottom	: .1em;
-			} 
-			
+			}
+
 			.link {
 				float : right;
 			}
-			
+
 			.footer, .header {
 				margin : 10px 0 10px 0;
 			}
@@ -36,19 +45,19 @@
 				position: absolute;
 				bottom: 0px;
 			}
-			
+
 			.content {
 				width	: 100%;
 				position: absolute;
 				top		: 95px;
 				bottom	: 45px;
 			}
-			
+
 			.content iframe {
 				width: 100% !important;
 				height: 100% !important;
 			}
-			
+
 			h1, .header, .footer {
 				margin : 8px 8px 8px 8px;
 			}
@@ -56,15 +65,31 @@
 
 	</head>
 	<body onload="Initialize()">
-		<a id="wb-locale"  class="link" href="">Anglais</a>
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index-fra.html">Approche participative avec Statistique Canada</a>
+	        </div>
+	        <div class="navbar-collapse collapse">
+	  	     <ul class="nav navbar-nav navbar-right">
+	           <li>
+	             <a href="" class="btn btn-link pull-right" onclick="auth()">Connecter à OpenStreetMap</a>
+	          </li>
+	  			  <li><a id="wb-locale"  class="link" href="">English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+	  		</ul>
+
+	  		<ul class="nav navbar-nav">
+	            <li><a href="info.html" data-toggle="collapse" data-target=".navbar-collapse.in">&nbsp;&nbsp;Info</a></li>
+	          </ul>
+	        </div><!--/.navbar-collapse -->
+	      </div>
+
 		<div id="wb-cont"></div>
-		
-		<div>
-			<h1>Plateforme de collaboration en ligne</h1>
-			<div class="header">Note importante: Toutes les données et informations affichées dans la carte sont des données ouvertes fournies par un tiers parti; 
-								****CHANGE NAME**** ne pourra être tenu responsable de la qualité et de l'utilisation de ces données.</div>
-		</div>
+
 		<div id="wb-content" class="content"></div>
-		<div class="footer">Vous souhaitez que votre contribution soit reconnue au Mur de la renommée du "crowdsourcing"? Envoyez nous un e-mail en nous spécifiant votre code d'utilisateur à: crowdsourcing@canada.ca</div>
-	</body>
+		</body>
 </html>
